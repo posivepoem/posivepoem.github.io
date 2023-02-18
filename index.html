@@ -1,0 +1,348 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no,">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>(゜-゜)~啜酒吟风~</title>
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/loading.css">
+	<link rel="icon" href="img/logo.png">
+	<script src="js/jquery-1.11.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/global.js"></script>
+</head>
+<body class="body">
+	<div id="back-top"><a href="#gotop" onclick="scrollToTop();return false"></a></div>
+	<!-- 头部 begin-->
+	<div class="header" id="gotop">
+		<div class="nav">
+			<nav class="clearfix">
+				<div class="navfl fl">
+					<ul class="clearfix">
+						<!-- <li><img src="img/hdrenwu.png" alt=""></li> -->
+						<li><a class="active" href="index.html">首页</a></li>
+						<li><a href="./textpage.html">作品集</a></li>
+						<li><a href="./photos.html">相册</a></li>
+						<li><a href="./login.html">登陆</a></li>
+					</ul>
+				</div>
+				<!-- 左边结束 -->
+				<div class="navrt fr">
+					<ul class="clearfix">
+						<li><img src="img/hdrenwu.png" alt=""> <input type="text" placeholder="点击量top 10"><button onclick="test()"></button></li>
+						<li></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!-- 头像部分 -->
+		<div class="tx">
+			<div class="img">
+				<a href="javascript:void(0);" title="名字+个人主页"></a>
+			</div>
+			<!-- 头像部分 -->
+			<!-- 微语公告 -->
+			<div class="wenzi">
+				<h1>赵士柱博客首页</h1>
+				<div id="news">
+					<ul>
+						<li><img src="" width="20" alt="">&nbsp;<a href="#" title="公告第七条，这是一个喜爱文学的程序猿的博客。">公告第七条，这是一个喜爱文学的程序猿的博客。</a></li>
+						<li><img src="" width="20" alt="">&nbsp;<a href="#" title="公告第七条，这是一个喜爱文学的程序猿的博客。">公告第七条，这是一个喜爱文学的程序猿的博客。</a></li>
+						<li><img src="" width="20" alt="">&nbsp;<a href="#" title="公告第七条，这是一个喜爱文学的程序猿的博客。">公告第七条，这是一个喜爱文学的程序猿的博客。</a></li>
+						<li><img src="" width="20" alt="">&nbsp;<a href="#" title="公告第七条，这是一个喜爱文学的程序猿的博客。">公告第七条，这是一个喜爱文学的程序猿的博客。</a></li>
+						<li><img src="" width="20" alt="">&nbsp;<a href="#" title="公告第七条，这是一个喜爱文学的程序猿的博客。">公告第七条，这是一个喜爱文学的程序猿的博客。</a></li>
+						<li><img src="" width="20" alt="">&nbsp;<a href="#" title="公告第七条，这是一个喜爱文学的程序猿的博客。">公告第七条，这是一个喜爱文学的程序猿的博客。</a></li>
+						<li><img src="" width="20" alt="">&nbsp;<a href="#" title="公告第七条，这是一个喜爱文学的程序猿的博客。">公告第七条，这是一个喜爱文学的程序猿的博客。</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- 微语公告 -->
+		</div>
+	</div>	
+	<!-- 头部 end -->
+
+	<!-- 页面内容 begin -->
+	<div class="content">
+		<aside class="container content-container">
+			<div class="row">
+				<div class="col-md-9">
+					<!-- 轮播图 -->
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+						</ol>
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner lunbotu" role="listbox">
+							<div class="item active">
+								<a href=""><img src="img/apic28924.jpg" alt="..."></a>
+								<span class="sidetitle"></span>
+							</div>
+							<div class="item">
+								<a href=""><img src="img/zzpic14949_s.jpg" alt="..."></a>
+								<span class="sidetitle"></span>
+							</div>
+							<div class="item">
+								<a href=""><img src="img/apic38404.jpg" alt="..."></a>
+								<span class="sidetitle"></span>
+							</div>
+							<div class="item">
+								<a href=""><img src="img/xpic10594.jpg" alt="..."></a>
+								<span class="sidetitle"></span>
+							</div>
+						</div>
+
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+					<!-- 轮播图 -->
+					<!-- 首页作品预览 -->
+					<div id="app" class="app">
+							<div class="musu">
+								<span class="choose">格律诗</span>
+								<span>自由诗</span>
+								<span>长短句</span>
+								<span>随笔及小说</span>
+							</div>
+							<div class="content">
+								<p class="choose">冬日咏怀 &nbsp;垄上行 &nbsp;早春咏怀</p>
+								<p>
+									<a href="">百合组诗 &nbsp;
+										<a href="">朝圣</a> &nbsp;
+										<a href="">卑微的人</a> &nbsp;
+										<a href="">随笔诗</a>
+								</p>
+								<p>
+									<a href="">浣溪沙 &nbsp;
+										<a href="">如梦令</a> &nbsp;
+										<a href="">钗头凤</a> &nbsp;
+										<a href="">念奴娇 </a>
+								</p>
+								<p>
+									<a href="">随想论</a> &nbsp;
+									<a href="死亡之后.html">死亡之后</a> &nbsp;
+									<a href="随笔.html">闲人细语</a>&nbsp;
+									<a href="">拯救</a>
+								</p>
+							</div>
+						</div>
+					<!-- 文章分页按钮 -->
+				</div>
+				<!-- 侧栏 -->
+				<aside class="col-md-3">
+					
+					<aside class="widget">
+						<h4><span class="glyphicon glyphicon-tasks"></span>分类</h4>
+						<ul class="clearfix">
+							<li class="duogefl">
+								<div>文学</div>
+								(<a href="javascript:void(0);">文章</a>
+								<a href="javascript:void(0);">诗歌</a>)
+							</li>
+							<li class="duogefl">
+								<div>技术相关</div>
+								(<a href="javascript:void(0);">前端笔记</a>
+								<a href="javascript:void(0);">后端技术</a>
+								<a href="javascript:void(0);">全栈开发</a>)
+							</li>
+							<li class="dangefl">
+								<div>软件工具</div>
+								<div>网站源码</div>
+							</li>
+							<li class="dangefl">
+								<div>影视资源</div>
+								<div>音乐分享</div>
+							</li>
+							<li class="dangefl">
+								<div>其他资源</div>
+							</li>
+						</ul>
+					</aside>
+					<div class="widget">
+						<h4><span class="glyphicon glyphicon-th-list"></span>存档</h4>
+						<ul class="clearfix">
+							<li class="cundang">
+								<span class="glyphicon glyphicon-time"></span><div>2022年4月(7)</div>
+							</li>
+							<li class="cundang">
+								<span class="glyphicon glyphicon-time"></span><div>2022年4月(3)</div>
+							</li>
+							<li class="cundang">
+								<span class="glyphicon glyphicon-time"></span><div>2022年3月(2)</div>
+							</li>
+
+							<li class="cundang">
+								<span class="glyphicon glyphicon-time"></span><div>2022年2月(6)</div>
+							</li>
+							<li class="cundang">
+								<span class="glyphicon glyphicon-time"></span><div>2022年2月(4)</div>
+							</li>
+							<li class="cundang">
+								<span class="glyphicon glyphicon-time"></span><div>2022年2月(1)</div>
+							</li>
+							<li class="cundang">
+								<span class="glyphicon glyphicon-time"></span><div>2022年1月(5)</div>
+							</li>
+							<li class="cundang">
+								<span class="glyphicon glyphicon-time"></span><div>2022年1月(4)</div>
+							</li>
+							<li class="cundang">
+								<span class="glyphicon glyphicon-time"></span><div>2022年1月(3)</div>
+							</li>
+							<li class="cundang">
+								<span class="glyphicon glyphicon-time"></span><div>2022年1月(2)</div>
+							</li>
+						</ul>
+					</div>
+					<div class="widget">
+						<h4><span class="glyphicon glyphicon-pencil"></span>诗歌</h4>
+						<ul class="clearfix hotwz">
+							<li class="duogefl">
+								<em class="hotone">1</em><a href="javascript:void(0);">柳君</a>
+							</li>
+							<li class="duogefl">
+								<em class="hottwo">2</em><a href="javascript:void(0);">朝圣者</a>
+							</li>
+							<li class="duogefl">
+								<em class="hotthree">3</em><a href="javascript:void(0);">纷争</a>
+							</li>
+						</ul>
+					</div>
+					<div class="widget">
+						<h4><span class="glyphicon glyphicon-fire"></span>文章</h4>
+						<ul class="clearfix hotwz">
+							<li class="duogefl">
+								<em class="hotone">1</em><a href="javascript:void(0);">闲人细语</a>
+							</li>
+							<li class="duogefl">
+								<em class="hottwo">2</em><a href="javascript:void(0);">随想论</a>
+							</li>
+							<li class="duogefl">
+								<em class="hotthree">3</em><a href="javascript:void(0);">行言之道</a>
+							</li>
+							<li class="duogefl">
+								<em class="hotSoSo">4</em><a href="javascript:void(0);">死亡之后</a>
+							</li>
+							<li class="duogefl">
+								<em class="hotSoSo">5</em><a href="javascript:void(0);">雪下独步吟怀</a>
+							</li>
+							<li class="duogefl">
+								<em class="hotSoSo">6</em><a href="javascript:void(0);">拯救</a>
+							</li>
+						</ul>
+					</div>
+						<h4><span class="glyphicon glyphicon-signal"></span>站点统计</h4>
+						<div class="zdtj">
+							<p>微语数量：11条</p>
+							<p>文章数量：225篇</p>
+							<p>吐槽数量：572次</p>
+							<p>勉强存活：287天</p>
+							<p>诞生日期：2022年5月4号</p>
+						</div>
+					</aside>
+				</aside>
+				<!-- 侧栏 -->
+			</div>
+		</div>
+	</div>
+	<!-- 页面内容 end -->
+	<!-- 底部 -->
+	<footer class="footer">
+		<div class="container">
+			<p class="fttext">文中出现的商标及图像版权属于其合法持有人，只供传递信息之用，非商务用途。互动交流时请遵守理性，宽容，换位思考的原则。</p>
+			<p>基于HTML+CSS+JavaScript+Bootstrap3.3.7+jQuery1.11.1</p>
+			<p>Copyright &copy;2022-05-04 by 赵士柱</p>
+		</div>
+	</footer>
+	<!-- 底部 -->
+	<!-- 齿轮加载 -->
+	
+  </div>
+</div>	
+	<!-- 齿轮加载 -->
+	<script>
+   //ajax获取zcjun.com数据
+  $.ajax({
+  	url:"data/articleLists.json",
+  	type:"get",
+  	async: true,
+  	beforeSend: function (){
+  		$("#loading").show()
+  	}
+  }).then(res=>{
+  	// let jsonObj=JSON.parse(res)
+  	// let data = jsonObj.data
+	let data =res.data
+  	$("#loading").hide()
+  	for(let [key,article] of data.entries()){		
+  	//判断一页最多7篇文章
+  	if(key<8){
+  		$(".articles").append(`
+  				<li><article>
+						<div class="indexwen" style>
+							<div class="page-header">
+								<h2 title="文章标题"><a href="details.html" style="white-space: nowrap;text-overflow:ellipsis;overflow: hidden;maxWidth =840px;display:block;">${article.title}</a></h2>
+							</div>
+							<div class="col-xs-6 col-md-3">
+								<a href="details.html" class="thumbnail">
+									<img src="img/random/tb${key+1}.jpg" alt="...">
+								</a>
+							</div>
+							<span>文章摘要-这是第一款适用于自媒体、极客的博客主题 它提供多样化的文章分类样式，内置了许多个性化的功能，能够满足您的各种需求。 特色 适用所有设备。文章摘要-这是第一款适用于自媒体、极客的博客主题 它提供多样化的文章分类样式，内置了许多个性化的功能，能够满足您的各种需求。 特色 适用所有设备。</span>
+							<p>
+								<em class="glyphicon glyphicon-user"></em>
+								作者：${article.nickname} 
+								<em class="glyphicon glyphicon-time"></em>
+								时间：${article.date}
+								<em class="glyphicon glyphicon-tasks"></em>
+								心情日志
+								<em class="glyphicon glyphicon-eye-open"></em>
+								${article.views}人围观
+							</p>
+							<i class="dv"></i>
+						</div>
+					</article></li>
+  		`)
+  	}
+  	}
+  },err=>console.log(err))
+
+var app = document.getElementById('app');
+var spans = app.getElementsByTagName('span');
+var ps = app.getElementsByTagName('p');
+for(var i = 0, len = spans.length; i < len; i++) {
+	spans[i].index = i;
+	spans[i].onclick = function() {
+		for(var j = 0; j < len; j++) {
+			spans[j].className = '';
+		}
+		spans[this.index].className = 'choose';
+		for(var k = 0, klen = ps.length; k < klen; k++) {
+			ps[k].className = '';
+		}
+		ps[this.index].className = 'choose';
+	}
+}
+</script>
+<iframe class="mip" src="firstpage.html" style="display: none; position: absolute;top: 0;left: 0;bottom: 0;right: 0;width: 100%;height: 100%;z-index: 99;"  frameborder="0"></iframe>
+</body>
+</html>
