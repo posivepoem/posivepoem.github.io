@@ -1,0 +1,78 @@
+body{
+	
+	/*background-color: antiquewhite;*/
+	text-align: center;
+	background-image: url(img/zzpic11198.jpg);
+	
+	background-attachment: fixed;
+	
+}
+.demo{
+	widows: 400px;
+	height: 10000px;
+	padding: 100px;
+margin: 100px;
+     background-position:  50% 50%;
+     background-color: #00FFFF;
+     background-image: url(img/卡通肖像图标免费下载o0_爱给网_aigei_com.png);
+     background-repeat: no-repeat; /*background-repeat 背景平铺 ;*/
+     border: 50px solid #7FFF00;
+     background-attachment: fixed;
+     /*background-attachment: scroll;*/
+}
+ul{
+	line-height: 5;
+}
+li:before{
+	content: "";
+	padding: 50px;
+	background-color: #000000;
+
+	font-size: 0;
+	vertical-align: middle;
+}
+.:before{
+	background-image: url(img/icons8-mail-100.png);
+	}
+.item2:before{
+	background-image: url(img/icons8-mail-100.png);
+}
+.item3:before{
+	background-image: url(img/icons8-mail-100.png);
+}
+.item4:before{
+	background-image: url(img/icons8-mail-100.png);
+}
+
+.diloge{
+	text-align: center;
+	font-weight: 800;
+	font-size: x-large;
+	font-style: italic;
+	color:lightsteelblue;
+	line-height: 2;
+}
+.exam{
+	font-weight: 400;
+	font-size: 40px;
+	text-align: -webkit-auto;
+	text-indent: 2em;
+}
+p{
+	font-weight: 100;
+	text-align: left;
+	text-indent: 2em;
+	
+	
+}
+h1{
+	text-align: center;
+}
+span{
+	font-style: normal
+		font-weight: 700;
+}
+a{
+	text-decoration: none;
+	color:lightsteelblue ;
+}
